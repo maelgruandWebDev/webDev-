@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Mode sombre / clair
     const toggleThemeBtn = document.createElement("button");
-    toggleThemeBtn.textContent = "🌙 Dark Mode";
+    toggleThemeBtn.textContent = "☀️ Light Mode";
     toggleThemeBtn.classList.add("theme-toggle");
     document.body.appendChild(toggleThemeBtn);
 
