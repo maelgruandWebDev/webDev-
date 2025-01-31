@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     toggleThemeBtn.addEventListener("click", () => {
         document.body.classList.toggle("light-mode");
         const isLight = document.body.classList.contains("light-mode");
-        toggleThemeBtn.textContent = isLight ? "☀️ Light Mode" : "🌙 Dark Mode";
+        toggleThemeBtn.textContent = isLight ?" 🌙 Dark Mode" : "☀️ Light Mode";
     });
 
     // Défilement fluide
